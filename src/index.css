@@ -53,6 +53,83 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Extended Neutral Scale */
+    --neutral-50: 210 40% 98%;
+    --neutral-100: 210 40% 96%;
+    --neutral-200: 214 32% 91%;
+    --neutral-300: 213 27% 84%;
+    --neutral-400: 215 20% 65%;
+    --neutral-500: 215 16% 47%;
+    --neutral-600: 215 19% 35%;
+    --neutral-700: 215 25% 27%;
+    --neutral-800: 217 33% 17%;
+    --neutral-900: 222 47% 11%;
+    --neutral-950: 223 84% 7%;
+
+    /* Accent Ramp */
+    --accent-50: 226 100% 97%;
+    --accent-100: 226 100% 94%;
+    --accent-200: 226 96% 89%;
+    --accent-300: 228 93% 81%;
+    --accent-400: 229 92% 71%;
+    --accent-500: 231 88% 63%;
+    --accent-600: 232 82% 55%;
+    --accent-700: 234 74% 46%;
+    --accent-800: 235 68% 38%;
+    --accent-900: 235 60% 30%;
+    --accent-950: 235 52% 20%;
+
+    /* Success Ramp */
+    --success-50: 140 60% 96%;
+    --success-100: 141 55% 90%;
+    --success-200: 141 50% 80%;
+    --success-300: 142 47% 65%;
+    --success-400: 143 45% 53%;
+    --success-500: 144 47% 45%;
+    --success-600: 145 50% 36%;
+    --success-700: 146 52% 28%;
+    --success-800: 147 55% 23%;
+    --success-900: 148 58% 18%;
+    --success-950: 149 60% 12%;
+
+    /* Warning Ramp */
+    --warning-50: 45 100% 97%;
+    --warning-100: 45 96% 90%;
+    --warning-200: 45 94% 82%;
+    --warning-300: 43 92% 72%;
+    --warning-400: 40 90% 62%;
+    --warning-500: 38 92% 54%;
+    --warning-600: 36 94% 47%;
+    --warning-700: 32 95% 37%;
+    --warning-800: 28 90% 30%;
+    --warning-900: 26 85% 24%;
+    --warning-950: 22 80% 16%;
+
+    /* Danger Ramp */
+    --danger-50: 0 85% 97%;
+    --danger-100: 0 78% 94%;
+    --danger-200: 0 74% 86%;
+    --danger-300: 0 72% 77%;
+    --danger-400: 0 70% 66%;
+    --danger-500: 0 72% 56%;
+    --danger-600: 0 74% 48%;
+    --danger-700: 0 74% 40%;
+    --danger-800: 0 70% 33%;
+    --danger-900: 0 65% 27%;
+    --danger-950: 0 60% 18%;
+
+    /* Shadows (allow AI adjustment) */
+    --shadow-xs: 0 1px 2px 0 hsl(0 0% 0% / 0.05);
+    --shadow-sm: 0 1px 3px 0 hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.1), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.1), 0 8px 10px -6px hsl(0 0% 0% / 0.1);
+
+    /* Font Variables for dynamic swapping */
+    --font-display: 'Inter';
+    --font-body: 'Inter';
+    --font-mono: 'JetBrains Mono';
   }
 
   .dark {
@@ -91,6 +168,78 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Neutral Scale (Dark tuned) */
+    --neutral-50: 223 84% 7%;
+    --neutral-100: 224 71% 8%;
+    --neutral-200: 225 60% 10%;
+    --neutral-300: 226 55% 14%;
+    --neutral-400: 228 45% 22%;
+    --neutral-500: 230 35% 32%;
+    --neutral-600: 230 30% 40%;
+    --neutral-700: 228 25% 52%;
+    --neutral-800: 226 20% 65%;
+    --neutral-900: 222 15% 78%;
+    --neutral-950: 210 10% 90%;
+
+    /* Accent Ramp (Dark center shifts) */
+    --accent-50: 230 50% 14%;
+    --accent-100: 231 52% 18%;
+    --accent-200: 232 55% 23%;
+    --accent-300: 233 60% 30%;
+    --accent-400: 234 65% 40%;
+    --accent-500: 235 70% 50%;
+    --accent-600: 236 75% 60%;
+    --accent-700: 237 80% 66%;
+    --accent-800: 238 85% 72%;
+    --accent-900: 239 90% 78%;
+    --accent-950: 240 95% 85%;
+
+    /* Success Ramp (Dark) */
+    --success-50: 145 50% 14%;
+    --success-100: 146 52% 18%;
+    --success-200: 147 55% 24%;
+    --success-300: 148 57% 30%;
+    --success-400: 149 60% 38%;
+    --success-500: 150 63% 46%;
+    --success-600: 151 66% 54%;
+    --success-700: 152 69% 62%;
+    --success-800: 153 72% 70%;
+    --success-900: 154 75% 78%;
+    --success-950: 155 80% 86%;
+
+    /* Warning Ramp (Dark) */
+    --warning-50: 35 65% 16%;
+    --warning-100: 36 68% 20%;
+    --warning-200: 37 70% 26%;
+    --warning-300: 38 72% 32%;
+    --warning-400: 39 74% 40%;
+    --warning-500: 40 76% 48%;
+    --warning-600: 41 78% 56%;
+    --warning-700: 42 80% 62%;
+    --warning-800: 43 82% 70%;
+    --warning-900: 44 84% 78%;
+    --warning-950: 45 86% 86%;
+
+    /* Danger Ramp (Dark) */
+    --danger-50: 355 60% 14%;
+    --danger-100: 356 62% 18%;
+    --danger-200: 357 64% 24%;
+    --danger-300: 358 66% 30%;
+    --danger-400: 359 68% 38%;
+    --danger-500: 0 70% 46%;
+    --danger-600: 1 72% 54%;
+    --danger-700: 2 74% 60%;
+    --danger-800: 3 76% 68%;
+    --danger-900: 4 78% 76%;
+    --danger-950: 5 80% 84%;
+
+    /* Shadows (dark refinement) */
+    --shadow-xs: 0 1px 2px 0 hsl(0 0% 0% / 0.4);
+    --shadow-sm: 0 2px 4px -1px hsl(0 0% 0% / 0.45), 0 1px 2px 0 hsl(0 0% 0% / 0.35);
+    --shadow-md: 0 4px 8px -2px hsl(0 0% 0% / 0.5), 0 2px 4px -2px hsl(0 0% 0% / 0.35);
+    --shadow-lg: 0 10px 18px -3px hsl(0 0% 0% / 0.55), 0 4px 8px -4px hsl(0 0% 0% / 0.4);
+    --shadow-xl: 0 20px 28px -6px hsl(0 0% 0% / 0.6), 0 8px 12px -6px hsl(0 0% 0% / 0.45);
   }
 }
 
